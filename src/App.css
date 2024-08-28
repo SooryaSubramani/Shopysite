@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  margin-top: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: relative;
+}
+
+.IndianRed{
+  background-color: #900C3F;
+}
+
+.carousel{
+  display: flex;
+  justify-content: center;
+  min-width: 1200px;
+  max-height: 30rem;
+}
+.card{
+  width: 18rem;
+  margin: 4px;
+  max-height: 25rem;
+}
+
+.card-text{
+  max-height: 75px;
+overflow: hidden;
+}
+
+.card-img-top{
+  max-width: 15rem;
+  max-height: 10rem;
+}
+
+.HeadElement{
+  /* max-width: 1200px; */
+  margin: 0% auto;
+}
+.App-logo {
+    animation: App-logo-Scale 10s linear infinite both;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-Scale {
+  from {
+    transform: scale(0);;
+  }
+  to {
+    transform: scale(0.7);
+  }
+}
